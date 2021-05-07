@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0 ;
+    text-align: center;
+    background-image: url(img/hai.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    font-size: 50px;
+}
+
+h1 {
+    background: linear-gradient(0deg, #ff0000, #0014ff 95%, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,0.0);
+    color: #ff0000;
+    font-family: 'HoeflerText-Black',sans-serif;
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pn {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    padding: 0 100px;
+    font-weight: bold;
+    color: #000000d0;
+    line-height: 110px;
+}
+
+.hako {
+    padding: 40px 200px;
+}
+
+.kuizu {
+    background-color: rgba(255, 255, 255, 0.904);
+    margin: 100px;
+    border-radius:  25px;
+    height: 700px;
+    width: auto;
+}
+
+input {
+    height: 80px;
+    width: 500px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.bm {
+    height: 40px;
+    width: 200px;
+    background-color: #c2005a;
+    color: aliceblue;
+    margin: 40px 0;
+    font-size: 25px;
+    border-radius: 10px;
+}
